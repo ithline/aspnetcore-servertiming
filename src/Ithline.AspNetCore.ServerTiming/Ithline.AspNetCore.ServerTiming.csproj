@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <Authors>ithline</Authors>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/ithline/aspnetcore-servertiming</RepositoryUrl>
+    <Copyright>Copyright © 2024 Ithline</Copyright>
+
+    <PackageId>Ithline.AspNetCore.ServerTiming</PackageId>
+    <PackageTags>aspnetcore;middleware;server-timing</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
+
+    <Description>Server timing middleware for ASP.NET Core applications.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <IsTrimmable>true</IsTrimmable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\"/>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
